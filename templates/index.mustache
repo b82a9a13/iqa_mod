@@ -1,0 +1,23 @@
+<h1 class='text-center'>{{modname}}</h1>
+<table class='table table-bordered table-striped table-hover text-center center'>
+    <thead>
+        <tr>
+            <th>Topic</th>
+            <th>Name</th>
+            <th>Time Modified</th>
+            <th>Time Created</th>
+            <th>Option</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#array}}
+            <tr>
+                <td></td>
+                <td><a href='./view.php?id={{1}}'>{{0}}</a></td>
+                <td>{{2}}</td>
+                <td>{{3}}</td>
+                <td>{{4}}</td>
+            </tr>
+        {{/array}}
+    </tbody>
+</table>

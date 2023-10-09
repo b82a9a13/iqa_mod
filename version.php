@@ -8,7 +8,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 1;
+$plugin->version = 2;
 $plugin->requires  = 2020110300;  // Requires this Moodle version.
 $plugin->component = 'mod_iqa'; // Full name of the plugin (used for diagnostics).
 $plugin->cron      = 0;

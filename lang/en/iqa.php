@@ -24,6 +24,7 @@
 //O
 //P
     $string['pluginname'] = 'IQA Module';
+    $string['pluginadministration'] = 'IQA Module Administration';
 //Q
 //R
 //S
